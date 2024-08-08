@@ -1,13 +1,11 @@
-# Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+----------------------------------------------------------------------------
+B2-SKATE项目是用户学习交流项目，旨在通过提供常见的Defi功能，方便大家学习使用
 
-Try running some of the following tasks:
+主要包含流动性质押，杠杆交易，固定利率质押功能的智能合约。
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+已完成：流动性质押....
+
+待开发：杠杆交易，固定利率质押....
+
+
