@@ -14,9 +14,6 @@ import "@openzeppelin/contracts-upgradeable/utils/PausableUpgradeable.sol";
 
 import "../interfaces/IB2ERC20.sol";
 
-
-
-
 /*
 B2RewardPerBlock = 
 方案一：自定义的奖励速度，固定值
@@ -87,7 +84,13 @@ cliam:min_对应的代币，，，给用户转账
 
 */
 
-contract B2Stake  is     /* ReentrancyGuard, */
+/*
+类比与uniswap的流动性质押的逻辑
+
+*/
+
+contract B2Stake  is      
+    ReentrancyGuard, 
     Initializable,
     UUPSUpgradeable,
     PausableUpgradeable,
